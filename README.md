@@ -57,8 +57,8 @@ It's imperative that enabling access to healthy and nourished food is the crux o
 
 Crop Doctor (a sub module of DHAAN) allows the user to easily upload an image of a crop or a plant directly from any device. 
 
-Once uploaded, Crop Doctor is then able to provide an in depth explanation of whether the crop has a disease or not and ways to prevent them in the future. 
-To achieve the same Crop Doctor uses state of the art Densenet 121 algorithm for prediction combined with IBM code engine that makes deployment a breeze. Also by using IBM Translate and IBM Text to Speech, Crop Doctor will provide a hype personalized end user experience.
+Once uploaded, Crop Doctor is then able to provide an in depth explanation of whether the crop has a disease or not and organic/traditional ways to prevent them in the future. 
+To achieve the same Crop Doctor uses state of the art Densenet 121 algorithm for prediction combined with IBM code engine that makes deployment a breeze. Also by using IBM Translate and IBM Text to Speech, Crop Doctor will provide a hyper personalized end user experience.
 
 With this, Crop Doctor helps farmers to tackle the high level of uncertainty  and destruction in crop plantations.
 
