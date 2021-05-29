@@ -117,6 +117,7 @@ $docker login
   Password: XXXX
   
 $ docker tag dhaan_docker dhaan/dhaan_docker:1.0.0
+
 $ docker push dhaan/dhaan_docker:1.0.0
 
 ## Without Docker:
@@ -128,12 +129,15 @@ $ pip3 install -r requirements.txt
 ## Clone the repository
 
 $ git clone https://github.com/zero-hunger-cfc-2k21/DHAAN-Plant-Disease-Prediction-Model.git
+
 $ DHAAN-Plant-Disease-Prediction-Model/
 
 ## Run app.py
 
 $ python3 app.py 
+
 or
+
 $ python -m flask run
 
 In Browser run with 127.0.0.1:5000
