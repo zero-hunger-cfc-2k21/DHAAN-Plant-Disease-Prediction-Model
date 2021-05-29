@@ -62,7 +62,7 @@ Once uploaded, Crop Doctor is then able to provide an in depth explanation of wh
 To achieve the same Crop Doctor uses state of the art Densenet 121 algorithm for prediction combined with IBM code engine that makes deployment a breeze. Also by using IBM Translate and IBM Text to Speech, Crop Doctor will provide a hype personalized end user experience.
 
 With this, Crop Doctor helps farmers to tackle the high level of uncertainty  and destruction in crop plantations.
-[More detail is available here](./docs/DESCRIPTION.md)
+
 
 ## Project roadmap
 
@@ -85,10 +85,56 @@ See below for our proposed schedule on next steps after Call for Code 2021 submi
 
 ## Getting started
 
-In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
+Setup
 
-- [sample-react-app](./sample-react-app/README.md)
-- [Explore other projects](https://github.com/upkarlidder/ibmhacks)
+This code works on Python3+ versions.
+
+Clone the repository
+
+With Docker:
+
+$ git clone https://github.com/zero-hunger-cfc-2k21/DHAAN-Plant-Disease-Prediction-Model.git
+$ DHAAN-Plant-Disease-Prediction-Model/
+
+Install Docker
+https://docs.docker.com/engine/install/ubuntu/
+
+Build docker image
+
+$ docker build -t dhaan_docker .
+Note: ensure in app.py port is mentiond as 8080
+
+$ docker run -it -p 8080:8080 dhaan_docker
+
+In Browser run with 127.0.0.1:8080
+
+To push:
+
+$docker login
+  Username: XXXX
+  Password: XXXX
+  
+$ docker tag dhaan_docker dhaan/dhaan_docker:1.0.0
+$ docker push dhaan/dhaan_docker:1.0.0
+
+Without Docker:
+
+Install the required libraries
+
+$ pip3 install -r requirements.txt
+
+Clone the repository
+
+$ git clone https://github.com/zero-hunger-cfc-2k21/DHAAN-Plant-Disease-Prediction-Model.git
+$ DHAAN-Plant-Disease-Prediction-Model/
+
+Run app.py
+
+$ python3 app.py 
+or
+$ python -m flask run
+
+In Browser run with 127.0.0.1:5000
 
 ## Built with
 
