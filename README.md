@@ -44,6 +44,7 @@ It's imperative that enabling access to healthy and nourished food is the crux o
 ## The architecture
 
 ![Architecture](./images/Arch-Crop Dr.png)
+![Roadmap](./images/DHAAN_Updated_Product_Roadmap.png)
 
 1. The user navigates to the app and uploads an image file.
 2. Within the code engine, front end parses and send it to Router.
@@ -80,7 +81,6 @@ Key Future work includes:
 - Develop the DHAAN app to provide additonal services
 
 See below for our proposed schedule on next steps after Call for Code 2021 submission.
-Inset ROADMAP image
 ![Roadmap](./images/DHAAN_Updated_Product_Roadmap.png)
 
 ## Getting started
