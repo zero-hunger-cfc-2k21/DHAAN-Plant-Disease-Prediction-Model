@@ -81,7 +81,7 @@ Key Future work includes:
 
 See below for our proposed schedule on next steps after Call for Code 2021 submission.
 Inset ROADMAP image
-![Roadmap](./images/roadmap.jpg)
+![Roadmap](./images/DHAAN_Updated_Product_Roadmap.png)
 
 ## Getting started
 
