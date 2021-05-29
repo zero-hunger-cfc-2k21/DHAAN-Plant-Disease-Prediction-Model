@@ -39,7 +39,7 @@ It's imperative that enabling access to healthy and nourished food is the crux o
 
 ## Demo video
 
-https://github.com/Call-for-Code/Liquid-Prep/blob/master/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0
+[![Watch the video](https://github.com/Call-for-Code/Liquid-Prep/blob/master/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
 
 ## The architecture
 
