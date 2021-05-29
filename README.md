@@ -43,7 +43,7 @@ It's imperative that enabling access to healthy and nourished food is the crux o
 
 ## The architecture
 
-![Roadmap](./images/Arch-Crop Dr.png)
+![Architecture](./images/Arch-Crop Dr.png)
 
 1. The user navigates to the app and uploads an image file.
 2. Within the code engine, front end parses and send it to Router.
