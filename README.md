@@ -85,21 +85,21 @@ See below for our proposed schedule on next steps after Call for Code 2021 submi
 
 ## Getting started
 
-Setup
+## Setup
 
 This code works on Python3+ versions.
 
-Clone the repository
+## Clone the repository
 
-With Docker:
+## With Docker:
 
 $ git clone https://github.com/zero-hunger-cfc-2k21/DHAAN-Plant-Disease-Prediction-Model.git
 $ DHAAN-Plant-Disease-Prediction-Model/
 
-Install Docker
+## Install Docker
 https://docs.docker.com/engine/install/ubuntu/
 
-Build docker image
+## Build docker image
 
 $ docker build -t dhaan_docker .
 Note: ensure in app.py port is mentiond as 8080
@@ -108,7 +108,7 @@ $ docker run -it -p 8080:8080 dhaan_docker
 
 In Browser run with 127.0.0.1:8080
 
-To push:
+## To push:
 
 $docker login
   Username: XXXX
@@ -117,18 +117,18 @@ $docker login
 $ docker tag dhaan_docker dhaan/dhaan_docker:1.0.0
 $ docker push dhaan/dhaan_docker:1.0.0
 
-Without Docker:
+## Without Docker:
 
-Install the required libraries
+## Install the required libraries
 
 $ pip3 install -r requirements.txt
 
-Clone the repository
+## Clone the repository
 
 $ git clone https://github.com/zero-hunger-cfc-2k21/DHAAN-Plant-Disease-Prediction-Model.git
 $ DHAAN-Plant-Disease-Prediction-Model/
 
-Run app.py
+## Run app.py
 
 $ python3 app.py 
 or
@@ -141,7 +141,7 @@ In Browser run with 127.0.0.1:5000
 - [IBM Cloud](https://cloud.ibm.com/) - Hosted in IBM Cloud
 - [IBM Code Engine](https://cloud.ibm.com/login?redirect=%2Fcodeengine%2Flanding) - Deployment platform
 - [IBM Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - For converting results into speech audio
--  [IBM Language Translator](https://cloud.ibm.com/catalog/services/language-translator) - For converting results from English to Hindi
+- [IBM Language Translator](https://cloud.ibm.com/catalog/services/language-translator) - For converting results from English to Hindi
 - [Figma](www.figma.com) - For UI design
 - [Keras Framework](https://keras.io) - For AI/ML modelling
 - [Densenet121](https://keras.io/api/applications/densenet/) - For prediction
