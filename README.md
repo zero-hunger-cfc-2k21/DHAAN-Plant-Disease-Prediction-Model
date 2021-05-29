@@ -93,7 +93,8 @@ This code works on Python3+ versions.
 
 ## With Docker:
 
-$ git clone https://github.com/zero-hunger-cfc-2k21/DHAAN-Plant-Disease-Prediction-Model.git
+$ git clone https://github.com/zero-hunger-cfc-2k21/DHAAN-Plant-Disease-Prediction-Model.git 
+
 $ DHAAN-Plant-Disease-Prediction-Model/
 
 ## Install Docker
