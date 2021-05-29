@@ -38,7 +38,7 @@ It's imperative that enabling access to healthy and nourished food is the crux o
 
 ## Demo video
 
-[![Watch the video](./images/preview.jpg)](https://www.youtube.com/watch?v=ps6iUlIUpgw)
+[![Watch the video](./images/preview_image.jpg)](https://www.youtube.com/watch?v=ps6iUlIUpgw)
 
 ## The architecture
 
