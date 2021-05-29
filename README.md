@@ -103,6 +103,7 @@ https://docs.docker.com/engine/install/ubuntu/
 ## Build docker image
 
 $ docker build -t dhaan_docker .
+
 Note: ensure in app.py port is mentiond as 8080
 
 $ docker run -it -p 8080:8080 dhaan_docker
