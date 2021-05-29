@@ -155,6 +155,7 @@ https://app-c1.a3bnbtend2e.jp-tok.codeengine.appdomain.cloud/
 - [Figma](www.figma.com) - For UI design
 - [Keras Framework](https://keras.io) - For AI/ML modelling
 - [Densenet121](https://keras.io/api/applications/densenet/) - For prediction
+- Trained Model Link: https://drive.google.com/file/d/1WF8kWRRYEUt3zxgRUBJdY93P4KWlfCC2/view?usp=sharing
 
 ## Authors
 - **Suneetha Jonadula** - _Lead Developer_
