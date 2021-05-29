@@ -112,7 +112,9 @@ In Browser run with 127.0.0.1:8080
 ## To push:
 
 $docker login
+
   Username: XXXX
+  
   Password: XXXX
   
 $ docker tag dhaan_docker dhaan/dhaan_docker:1.0.0
